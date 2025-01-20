@@ -4,6 +4,10 @@
   font-style: normal;
 }
 
+body {
+  background-color: rgba(241, 241, 243, 1);
+}
+
 
 
 /* Nav Styles  */
@@ -176,4 +180,33 @@ nav {
   width: 122px;
   height: 41px;
   margin-top: 40px;
+}
+
+/* quotation */
+
+.quote {
+  width: 1490px;
+  height: 256px;
+  background-color:rgba(255, 255, 255, 1) ;
+  border-radius: 16px;
+  margin: 38px 160px 80px 170px;
+  padding: 48px 24px 20px 24px;
+}
+
+/* .quote-img {
+  background-image: url("../assets/icons/quote-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+} */
+
+.details-2 {
+  background-image: url("../assets/icons/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 45px 48px;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  padding-top:17px ;
+  
 }
