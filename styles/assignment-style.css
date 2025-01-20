@@ -75,3 +75,105 @@ nav {
 .banner-image {
   padding: 75px 60px 75px 64px ;
 }
+
+/* shared style */
+
+.headings {
+  font-weight: bold;
+  font-size: 40px;
+  color:rgba(14, 14, 14, 1) ;
+}
+
+.details {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  
+}
+
+
+/* card styles */
+
+/* .cards { */
+  
+
+
+
+.card-1{
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+}
+
+.card-title {
+  margin: 80px 160px 32px 165px ;
+}
+
+.blue-card{
+  background-color: rgba(84, 144, 245, 0.2) ;
+  width: 411px;
+  height: 325px;
+  padding: 32px 32px ;
+  border-radius: 16px;
+}
+
+.headings-card {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+}
+
+.c-button-1 {
+  background-color: rgba(84, 144, 245, 1) ;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 8px;
+  border-style: none;
+  width: 122px;
+  height: 41px;
+  margin-top:38px ;
+}
+
+.green-card {
+  background-color: rgba(198, 228, 214, 1) ;
+  width: 411px;
+  height: 325px;
+  padding: 32px 32px ;
+  border-radius: 16px;
+}
+
+
+.c-button-2 {
+  background-color:rgba(9, 161, 92, 1) ;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 8px;
+  border-style: none;
+  width: 122px;
+  height: 41px;
+  margin-top:40px ;
+}
+
+.yellow-card {
+  background-color: rgba(247, 235, 207, 1) ;
+  width: 411px;
+  height: 325px;
+  padding: 32px 32px ;
+  border-radius: 16px;
+}
+
+.c-button-3 {
+  background-color:rgba(255, 194, 57, 1) ;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 8px;
+  border-style: none;
+  width: 122px;
+  height: 41px;
+  margin-top: 40px;
+}
