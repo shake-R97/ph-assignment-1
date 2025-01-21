@@ -73,9 +73,9 @@ nav {
   border-radius: 8px;
   border: none;
 }
-.banner-details{
-  /* padding:70px 64px 100px  60px ; */
-}
+/* .banner-details { 
+   padding:70px 64px 100px  60px ; 
+} */
 .banner-image {
   padding: 75px 60px 75px 64px ;
 }
@@ -95,11 +95,7 @@ nav {
 }
 
 
-/* card styles */
-
-/* .cards { */
-  
-
+  /* card styles */
 
 
 .card-1{
@@ -210,3 +206,63 @@ nav {
   padding-top:17px ;
   
 }
+
+  /* table */
+  
+  .table-sec {
+    margin: 152px 160px 24px 170px;
+  }
+
+  .table-1 {
+    width: 1400px;
+    height: 315px;
+    background-color: rgba(255, 255, 255, 1);
+    /* display: grid;
+    place-items: center; */
+    border-radius: 16px;
+    padding: 40px 70px 40px 70px;
+
+  }
+
+  table {
+    border: 1px solid;
+    border-color: rgba(14, 14, 14, 0.15);
+    border-collapse: collapse;
+    width: 1395px;
+    height: 280px;
+
+
+  }
+
+  td , th {
+    border: 1px solid;
+    border-color: rgba(14, 14, 14, 0.15);
+    text-align: left;
+    padding: 20px 20px;
+  }
+  th {
+    border: none;
+    background-color:rgba(198, 228, 214, 1) ;
+
+  }
+  .opinion-select {
+    width: 135px;
+    height: 27px;
+    border-radius: 4px;
+    background-color: rgba(198, 228, 214, 1);
+    text-align:center;
+    font-size: 16px;
+  }
+
+
+  /* Hover style */
+
+  .hover-style:hover {
+    background-color: rgba(75, 166, 182, 0.596);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 0.4s, color0.4s;
+  }
+  
+
+
