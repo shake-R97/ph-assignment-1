@@ -22,7 +22,7 @@ nav {
 .nav-title {
   font-size: 32px;
   font-weight: bolder;
-  margin-right: 942px ;
+  margin-right: 942px;
 }
 
 .btn {
@@ -50,13 +50,15 @@ nav {
   border-radius: 24px;
   margin-left: 167px;
   /* margin: 20px 160px 80px 160px;*/
-   padding: 70px 70px 70px 60px;
+  padding: 70px 70px 70px 60px;
 }
+
 .slogan {
   font-size: 35px;
   font-weight: medium;
   color: rgba(14, 14, 14, 0.5);
 }
+
 .b-heading {
   font-size: 70px;
   font-weight: bolder;
@@ -67,17 +69,18 @@ nav {
   height: 56px;
   text-align: center;
   background-color: #006A50;
-  color:#FFFFFF ;
+  color: #FFFFFF;
   font-weight: bold;
   font-size: 18px;
   border-radius: 8px;
   border: none;
 }
+
 /* .banner-details { 
    padding:70px 64px 100px  60px ; 
 } */
 .banner-image {
-  padding: 75px 60px 75px 64px ;
+  padding: 75px 60px 75px 64px;
 }
 
 /* shared style */
@@ -85,34 +88,34 @@ nav {
 .headings {
   font-weight: bold;
   font-size: 40px;
-  color:rgba(14, 14, 14, 1) ;
+  color: rgba(14, 14, 14, 1);
 }
 
 .details {
   font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
-  
+
 }
 
 
-  /* card styles */
+/* card styles */
 
 
-.card-1{
+.card-1 {
   display: flex;
   justify-content: center;
   gap: 55px;
 }
 
 .card-title {
-  margin: 80px 160px 32px 165px ;
+  margin: 80px 160px 32px 165px;
 }
 
-.blue-card{
-  background-color: rgba(84, 144, 245, 0.2) ;
+.blue-card {
+  background-color: rgba(84, 144, 245, 0.2);
   width: 411px;
   height: 325px;
-  padding: 32px 32px ;
+  padding: 32px 32px;
   border-radius: 16px;
 }
 
@@ -123,7 +126,7 @@ nav {
 }
 
 .c-button-1 {
-  background-color: rgba(84, 144, 245, 1) ;
+  background-color: rgba(84, 144, 245, 1);
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 700;
@@ -132,20 +135,20 @@ nav {
   border-style: none;
   width: 122px;
   height: 41px;
-  margin-top:38px ;
+  margin-top: 38px;
 }
 
 .green-card {
-  background-color: rgba(198, 228, 214, 1) ;
+  background-color: rgba(198, 228, 214, 1);
   width: 411px;
   height: 325px;
-  padding: 32px 32px ;
+  padding: 32px 32px;
   border-radius: 16px;
 }
 
 
 .c-button-2 {
-  background-color:rgba(9, 161, 92, 1) ;
+  background-color: rgba(9, 161, 92, 1);
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 700;
@@ -154,19 +157,19 @@ nav {
   border-style: none;
   width: 122px;
   height: 41px;
-  margin-top:40px ;
+  margin-top: 40px;
 }
 
 .yellow-card {
-  background-color: rgba(247, 235, 207, 1) ;
+  background-color: rgba(247, 235, 207, 1);
   width: 411px;
   height: 325px;
-  padding: 32px 32px ;
+  padding: 32px 32px;
   border-radius: 16px;
 }
 
 .c-button-3 {
-  background-color:rgba(255, 194, 57, 1) ;
+  background-color: rgba(255, 194, 57, 1);
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 700;
@@ -183,7 +186,7 @@ nav {
 .quote {
   width: 1490px;
   height: 256px;
-  background-color:rgba(255, 255, 255, 1) ;
+  background-color: rgba(255, 255, 255, 1);
   border-radius: 16px;
   margin: 38px 160px 80px 170px;
   padding: 48px 24px 20px 24px;
@@ -203,66 +206,113 @@ nav {
   background-size: 45px 48px;
   font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
-  padding-top:17px ;
-  
+  padding-top: 17px;
+
 }
 
-  /* table */
-  
-  .table-sec {
-    margin: 152px 160px 24px 170px;
-  }
+/* table */
 
-  .table-1 {
-    width: 1400px;
-    height: 315px;
-    background-color: rgba(255, 255, 255, 1);
-    /* display: grid;
+.table-sec {
+  margin: 152px 160px 24px 170px;
+}
+
+.table-1 {
+  width: 1400px;
+  height: 315px;
+  background-color: rgba(255, 255, 255, 1);
+  /* display: grid;
     place-items: center; */
-    border-radius: 16px;
-    padding: 40px 70px 40px 70px;
+  border-radius: 16px;
+  padding: 40px 70px 40px 70px;
 
-  }
+}
 
-  table {
-    border: 1px solid;
-    border-color: rgba(14, 14, 14, 0.15);
-    border-collapse: collapse;
-    width: 1395px;
-    height: 280px;
-
-
-  }
-
-  td , th {
-    border: 1px solid;
-    border-color: rgba(14, 14, 14, 0.15);
-    text-align: left;
-    padding: 20px 20px;
-  }
-  th {
-    border: none;
-    background-color:rgba(198, 228, 214, 1) ;
-
-  }
-  .opinion-select {
-    width: 135px;
-    height: 27px;
-    border-radius: 4px;
-    background-color: rgba(198, 228, 214, 1);
-    text-align:center;
-    font-size: 16px;
-  }
+table {
+  border: 1px solid;
+  border-color: rgba(14, 14, 14, 0.15);
+  border-collapse: collapse;
+  width: 1395px;
+  height: 280px;
 
 
-  /* Hover style */
+}
 
-  .hover-style:hover {
-    background-color: rgba(75, 166, 182, 0.596);
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    transition: background-color 0.4s, color0.4s;
-  }
-  
+td,
+th {
+  border: 1px solid;
+  border-color: rgba(14, 14, 14, 0.15);
+  text-align: left;
+  padding: 20px 20px;
+}
 
+th {
+  border: none;
+  background-color: rgba(198, 228, 214, 1);
+
+}
+
+.opinion-select {
+  width: 135px;
+  height: 27px;
+  border-radius: 4px;
+  background-color: rgba(198, 228, 214, 1);
+  text-align: center;
+  font-size: 16px;
+}
+
+
+/* Hover style */
+
+.hover-style:hover {
+  background-color: rgba(75, 166, 182, 0.596);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: background-color 0.4s, color0.4s;
+}
+
+/* Recent News section style */
+
+.news-section {
+  margin: 80px 150px 80px 160px;
+}
+
+.news-container {
+  width: 1440px;
+  height: 460px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 18px;
+  padding: 16px 62px 23px 44px;
+}
+
+.news-poster>img {
+  border-radius: 20px;
+}
+
+.news-info {
+  padding-bottom: 43px;
+}
+
+/* .news-info > img , p , button{
+    padding-bottom:10px;
+  } */
+.news-info>img,
+p,
+button {
+  padding-bottom: 2px;
+}
+
+.n-button {
+  background-color: rgba(0, 106, 80, 1);
+  color: whitesmoke;
+  width: 141px;
+  height: 50px;
+  text-align: center;
+  border-radius: 8px;
+  border-style: none;
+}
 
