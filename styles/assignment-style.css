@@ -316,3 +316,39 @@ button {
   border-style: none;
 }
 
+  /* donate sec style */
+
+
+.donate-sec {
+  text-align: center;
+}
+
+.amount-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.donate-amounts {
+  background-color: white;
+  width: 250px;
+  height: 88px;
+  border-radius: 16px;
+  padding: 42px 20px 19px 20px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.other-amount {
+  width: 1095px;
+  height: 51px;
+  /* padding: 30px 16px; */
+  border-style: none;
+  text-align: center;
+}
+.donate-sec>p {
+  word-spacing: 2px;
+}
